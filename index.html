@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+
+    <nav class="position-fixed w-100 z-2">
+        <div class="nav-container ">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <div class="container-fluid ">
+    <img src="images/logo.png" alt="">
+    <a class="navbar-brand border-end px-2" href="#">Noctype Hotel</a>
+    <button class="navbar-toggler bg-body-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Rooms
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Room 1</a></li>
+            <li><a class="dropdown-item" href="#">Room 2</a></li>
+            <li><a class="dropdown-item" href="#">Room 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      
+      <div class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn  mx-2" type="submit">Search</button>
+        <button class="btn mx-2" type="submit" id="open-btn" >Login</button>
+      </div>
+    </div>
+  </div>
+</nav>
+        </div><!-- container -->
+
+    <aside>
+        <div class="aside-container  position-fixed z-2 end-0   ">
+            
+        <div class="icon px-5 py-4 my-1">
+        <i class="fab fa-facebook-square "></i>
+        </div>
+        <div class="icon px-5 py-4 my-1">
+        <i class="fab fa-whatsapp-square"></i>
+        </div>
+        <div class="icon px-5 py-4 my-1">
+        <i class="fab fa-linkedin"></i>
+        </div>
+        <div class="icon px-5 py-4 my-1">
+        <i class="fab fa-instagram-square"></i>
+        </div>        
+        <div class="icon px-5 py-4 my-1">
+        <i class="fab fa-twitter-square"></i>
+        </div>
+
+        </div><!-- container -->
+    </aside>
+    </nav><!-- end nav  -->
+
+
+    <main>
+        <div class="caro-conatiner ">
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/caro 1.jpg" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block ">
+        <h2>Awesome View</h2>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/caro 2.jpg" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Awesome View</h2>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/caro 3.jpg" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Awesome View</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+        <div class="carousel-item">
+      <img src="images/caro 4.jpg" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Awesome View</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        </div><!-- container -->
+    </main><!-- carro -->
+
+
+    <section>
+        <div class=" welcome-container container-fluid p-4 text-light ">
+            <h2>Welcome</h2>
+            <p class="">Sed porttitor lectus nibh. Sed porttitor lectus nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. ed porttitor lectus nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
+            <button class="btn ">Learn More</button>
+        </div><!-- container -->
+
+    </section><!-- welcome -->
+
+
+    <section>
+      
+      <div class="fluid-container my-3 ">
+        <div class="accord-title text-center py-5 rounded p-4 " style ="background-color: #191919;">
+          <h3 class="text-light">High Class Rooms</h3>
+        </div><!-- title -->
+
+        <div class="accordion-parent my-3" >
+
+          <div class="accordion" id="accordionExample">
+  <div class="accordion-item" >
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style ="color: white ; background-color: #191919;">
+        Room 1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"  style ="color: white ; background-color: #191919;">
+        Room 2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style ="color: white ; background-color: #191919;" >
+        Room 3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div><!-- parent -->
+
+      </div><!-- container -->
+
+    </section><!-- accordion -->
+
+
+    <section>
+
+      <div class="trans-container my-2">
+        <div class="trans-title text-center text-light py-3" style =" background-color: #191919;">
+          <h3>Translate From Arabic To English</h3>
+        </div><!-- title -->
+        <div class="trans-body text-light p-3" style =" background-color: #3a3a3a;">
+          <p>Write and Translate <a href="#" class="text-light">Press Here</a></p>
+          <button class="copy-btn btn my-2 " onclick="copyText()" >Copy</button>
+        <div>
+          <textarea placeholder="Translate" class="w-100" style="height: 150px;"></textarea>
+          </div>
+        </div><!-- trans-body -->
+      </div><!-- contianer -->
+
+      <hr>
+
+    </section><!-- translate -->
+
+    <section>
+
+      <div class="trans-container my-2">
+        <div class="trans-title text-center text-light py-3" style =" background-color: #191919;">
+          <h3>Translate From Arabic To Frensh</h3>
+        </div><!-- title -->
+        <div class="trans-body text-light p-3" style =" background-color: #3a3a3a;">
+          <p>Write and Translate <a href="#" class="text-light">Press Here</a></p>
+          <button class="copy-btn btn my-2" onclick="copyText()">Copy</button>
+        <div>
+          <textarea placeholder="Translate" class="w-100" style="height: 150px;"></textarea>
+          </div>
+        </div><!-- trans-body -->
+      </div><!-- contianer -->
+
+      <hr>
+
+    </section><!-- translate -->
+
+        <section>
+
+      <div class="trans-container my-2">
+        <div class="trans-title text-center text-light py-3" style =" background-color: #191919;">
+          <h3>Translate From Arabic To German</h3>
+        </div><!-- title -->
+        <div class="trans-body text-light p-3" style =" background-color: #3a3a3a;">
+          <p>Write and Translate <a href="#" class="text-light">Press Here</a></p>
+          <button class="copy-btn btn my-2" onclick="copyText()">Copy</button>
+        <div>
+          <textarea placeholder="Translate" class="w-100" style="height: 150px;"></textarea>
+          </div>
+        </div><!-- trans-body -->
+      </div><!-- contianer -->
+
+      <hr>
+
+    </section><!-- translate -->
+
+
+    <div class="fixed-container">
+      <div class="img-parent"> 
+      </div>
+
+      <div class="fixed-title text-center text-light" style =" background-color: #191919;">
+        <h3 class="py-4">Our Hotel</h3>
+      </div><!-- title -->
+    </div><!-- container -->
+
+
+    <div class="rooms-container py-3">
+      <div class="continer-fluid">
+        <div class="rooms-parent row gap-4 w-100 mx-auto">
+          <div class="child col-lg-3 col-12 mx-auto ">
+            <div class="room-img text-center">
+              <img src="images/room 1.jpg" >
+            </div><!-- img  parent  -->
+            <div class="room-desc d-flex justify-content-around py-3">
+                <h3>Room 1</h3>
+                <button class="btn">Know More</button>
+            </div><!-- desc -->
+            <p class="px-5">Lorem ipsum dolor sit amet elit.</p>
+          </div><!-- child-->
+          <div class="child col-lg-3 col-12 mx-auto  ">
+            <div class="room-img text-center">
+              <img src="images/room 2.jpg" >
+            </div><!-- img  parent  -->
+            <div class="room-desc d-flex justify-content-around py-3">
+                <h3>Room 2</h3>
+                <button class="btn">Know More</button>
+            </div><!-- desc -->
+            <p class="px-5">Lorem ipsum dolor sit amet elit.</p>
+          </div><!-- child-->
+          <div class="child col-lg-3 col-12 mx-auto ">
+            <div class="room-img text-center">
+              <img src="images/room 3.jpg" >
+            </div><!-- img  parent  -->
+            <div class="room-desc d-flex justify-content-around py-3">
+                <h3>Room 3</h3>
+                <button class="btn">Know More</button>
+            </div><!-- desc -->
+            <p class="px-5">Lorem ipsum dolor sit amet elit.</p>
+          </div><!-- child-->
+        </div><!-- parent -->
+
+
+        <div class="rooms-parent row my-5 gap-4 w-100 mx-auto">
+          <div class="child col-lg-3 col-12 mx-auto ">
+            <div class="room-img text-center">
+              <img src="images/room 1.jpg" >
+            </div><!-- img  parent  -->
+            <div class="room-desc d-flex justify-content-around py-3">
+                <h3>Room 1</h3>
+                <button class="btn">Know More</button>
+            </div><!-- desc -->
+            <p class="px-5">Lorem ipsum dolor sit amet elit.</p>
+          </div><!-- child-->
+          <div class="child col-lg-3 col-12 mx-auto ">
+            <div class="room-img text-center">
+              <img src="images/room 2.jpg" >
+            </div><!-- img  parent  -->
+            <div class="room-desc d-flex justify-content-around py-3">
+                <h3>Room 2</h3>
+                <button class="btn">Know More</button>
+            </div><!-- desc -->
+            <p class="px-5">Lorem ipsum dolor sit amet elit.</p>
+          </div><!-- child-->
+          <div class="child col-lg-3 col-12 mx-auto ">
+            <div class="room-img text-center">
+              <img src="images/room 3.jpg" >
+            </div><!-- img  parent  -->
+            <div class="room-desc d-flex justify-content-around py-3">
+                <h3>Room 3</h3>
+                <button class="btn">Know More</button>
+            </div><!-- desc -->
+            <p class="px-5">Lorem ipsum dolor sit amet elit.</p>
+          </div><!-- child-->
+        </div><!-- parent -->
+
+
+        <div class="rooms-parent row gap-4 w-100 mx-auto">
+          <div class="child col-lg-3 col-12 mx-auto ">
+            <div class="room-img text-center">
+              <img src="images/room 1.jpg" >
+            </div><!-- img  parent  -->
+            <div class="room-desc d-flex justify-content-around py-3">
+                <h3>Room 1</h3>
+                <button class="btn">Know More</button>
+            </div><!-- desc -->
+            <p class="px-5">Lorem ipsum dolor sit amet elit.</p>
+          </div><!-- child-->
+          <div class="child col-lg-3 col-12 mx-auto ">
+            <div class="room-img text-center">
+              <img src="images/room 2.jpg" >
+            </div><!-- img  parent  -->
+            <div class="room-desc d-flex justify-content-around py-3">
+                <h3>Room 2</h3>
+                <button class="btn">Know More</button>
+            </div><!-- desc -->
+            <p class="px-5">Lorem ipsum dolor sit amet elit.</p>
+          </div><!-- child-->
+        </div><!-- parent -->
+
+      </div><!-- container -->
+    </div><!-- Rooms -->
+
+    
+    <div class="fixed-container">
+      <div class="img-parent" style="background-image: url(../images/fixed2.jpg);"> 
+      </div>
+      <hr>
+      <div class="fixed-title text-center text-light" style =" background-color: #191919;">
+        <h3 class="py-4">Thanks For</h3>
+      </div><!-- title -->
+    </div><!-- container -->
+
+    <section>
+      <div class="thx-container my-5">
+        <div class="thx-parent row gap-5 gap-lg-0 p-4 w-100 overflow-hidden mx-auto">
+
+          <div class="thx-child col-lg-3 col-12 mx-auto ">
+            <div class="thx-img">
+              <img src="images/profile 1.jpg" alt="">
+            </div>
+            <div class="thx-content d-flex justify-content-between flex-column rounded p-4 py-5">
+              <div class="top">
+                <h3>All thanks and appercation</h3>
+                <p>October 15, 2020</p>
+              </div><!-- top -->
+
+              <div class="bottom">
+                <div class="clear-img">
+                  <img src="images/profile 1.jpg" alt="">
+                </div><!-- img  -->
+                <h5>Eng.Mahmoud Salah</h5>
+                <p>FrontEnd Developer</p>
+              </div><!-- bottom -->
+            </div><!-- content -->
+          </div><!-- child -->
+          <div class="thx-child  col-lg-3 col-12 mx-auto">
+            <div class="thx-img">
+              <img src="images/profile 1.jpg" alt="">
+            </div>
+            <div class="thx-content d-flex justify-content-between flex-column rounded p-4 py-5">
+              <div class="top">
+                <h3>All thanks and appercation</h3>
+                <p>October 15, 2020</p>
+              </div><!-- top -->
+
+              <div class="bottom">
+                <div class="clear-img">
+                  <img src="images/profile 1.jpg" alt="">
+                </div><!-- img  -->
+                <h5>Eng.Mahmoud Salah</h5>
+                <p>FrontEnd Developer</p>
+              </div><!-- bottom -->
+            </div><!-- content -->
+          </div><!-- child -->
+
+          <div class="thx-child  col-lg-3 col-12 mx-auto">
+            <div class="thx-img">
+              <img src="images/profile 1.jpg" alt="">
+            </div>
+            <div class="thx-content d-flex justify-content-between flex-column rounded px-4 py-5">
+              <div class="top">
+                <h3>All thanks and appercation</h3>
+                <p>October 15, 2020</p>
+              </div><!-- top -->
+
+              <div class="bottom">
+                <div class="clear-img">
+                  <img src="images/profile 1.jpg" alt="">
+                </div><!-- img  -->
+                <h5>Eng.Mahmoud Salah</h5>
+                <p>FrontEnd Developer</p>
+              </div><!-- bottom -->
+            </div><!-- content -->
+          </div><!-- child -->
+
+
+        </div><!-- parent -->
+      </div><!-- container -->
+
+    </section><!-- thanks -->
+
+    <hr>
+
+    <section>
+      <div class="news-container container">
+        <h2 class="text-center fs-1">Hotel News</h2>
+        <div class="news-parent my-3 w-100 ">
+          <div class="news-child row w-100 justify-content-center justify-content-lg-start overflow-hidden  my-5 mx-auto">
+            <div class="news-desc p-4 col-lg-8 order-1 mx-lg-5">
+              <h2>Podcast Title</h2>
+              <p> <i class="fas fa-calendar-alt"></i> Mon ,May 25th 2020</p>
+              <p class="news-line"></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque natus suscipit esse in porro consequuntur mollitia quae tempora, libero officiis modi praesentium corporis. Quia officiis aliquid ratione voluptates aut.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt ex pariatur, iure similique error! Facilis pariatur voluptatibus voluptate, neque placeat doloremque tempora ipsam. Minus molestiae placeat delectus odit praesentium.
+              </p>
+              <div class="news-btns mt-5">
+                <button class="btn btn-light"> <i class="fas fa-ticket-alt"></i> Podcast</button>
+                <button class="btn btn-light"> <i class="fas fa-clock"></i> 55 mins</button>
+                <button class="btn btn-light"> <i class="fas fa-play"></i> Play episode</button>
+              </div><!-- buttons -->
+            </div><!-- desc -->
+            <div class="news-img news-right col-lg-3 ">
+              <img  class="news-img-s rounded" src="images/room 1.jpg" alt="">
+            </div><!-- img -->
+          </div><!-- child -->
+
+
+          <div class="news-child row w-100 justify-content-center  overflow-hidden justify-content-lg-between my-5 mx-auto">
+            <div class="news-desc p-4 col-lg-8  order-1 order-lg-0">
+              <h2>Podcast Title</h2>
+              <p> <i class="fas fa-calendar-alt"></i> Mon ,May 25th 2020</p>
+              <p class="news-line"></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque natus suscipit esse in porro consequuntur mollitia quae tempora, libero officiis modi praesentium corporis. Quia officiis aliquid ratione voluptates aut.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt ex pariatur, iure similique error! Facilis pariatur voluptatibus voluptate, neque placeat doloremque tempora ipsam. Minus molestiae placeat delectus odit praesentium.
+              </p>
+              <div class="news-btns mt-5">
+                <button class="btn btn-light"> <i class="fas fa-ticket-alt"></i> Podcast</button>
+                <button class="btn btn-light"> <i class="fas fa-clock"></i> 55 mins</button>
+                <button class="btn btn-light"> <i class="fas fa-play"></i> Play episode</button>
+              </div><!-- buttons -->
+            </div><!-- desc -->
+            <div class="news-img col-lg-3 ">
+              <img  class="news-img-s rounded" src="images/room 1.jpg" alt="">
+            </div><!-- img -->
+          </div><!-- child -->
+
+          <div class="news-child row w-100 justify-content-center justify-content-lg-start overflow-hidden  my-5 mx-auto">
+            <div class="news-desc p-4 col-lg-8 order-1 mx-lg-5">
+              <h2>Podcast Title</h2>
+              <p> <i class="fas fa-calendar-alt"></i> Mon ,May 25th 2020</p>
+              <p class="news-line"></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque natus suscipit esse in porro consequuntur mollitia quae tempora, libero officiis modi praesentium corporis. Quia officiis aliquid ratione voluptates aut.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt ex pariatur, iure similique error! Facilis pariatur voluptatibus voluptate, neque placeat doloremque tempora ipsam. Minus molestiae placeat delectus odit praesentium.
+              </p>
+              <div class="news-btns mt-5">
+                <button class="btn btn-light"> <i class="fas fa-ticket-alt"></i> Podcast</button>
+                <button class="btn btn-light"> <i class="fas fa-clock"></i> 55 mins</button>
+                <button class="btn btn-light"> <i class="fas fa-play"></i> Play episode</button>
+              </div><!-- buttons -->
+            </div><!-- desc -->
+            <div class="news-img news-right col-lg-3 ">
+              <img  class="news-img-s rounded" src="images/room 1.jpg" alt="">
+            </div><!-- img -->
+          </div><!-- child -->
+
+
+          <div class="news-child row w-100  justify-content-center  overflow-hidden justify-content-lg-between my-5 mx-auto">
+            <div class="news-desc p-4 col-lg-8  order-1 order-lg-0">
+              <h2>Podcast Title</h2>
+              <p> <i class="fas fa-calendar-alt"></i> Mon ,May 25th 2020</p>
+              <p class="news-line"></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque natus suscipit esse in porro consequuntur mollitia quae tempora, libero officiis modi praesentium corporis. Quia officiis aliquid ratione voluptates aut.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt ex pariatur, iure similique error! Facilis pariatur voluptatibus voluptate, neque placeat doloremque tempora ipsam. Minus molestiae placeat delectus odit praesentium.
+              </p>
+              <div class="news-btns mt-5">
+                <button class="btn btn-light"> <i class="fas fa-ticket-alt"></i> Podcast</button>
+                <button class="btn btn-light"> <i class="fas fa-clock"></i> 55 mins</button>
+                <button class="btn btn-light"> <i class="fas fa-play"></i> Play episode</button>
+              </div><!-- buttons -->
+            </div><!-- desc -->
+            <div class="news-img col-lg-3 ">
+              <img  class="news-img-s rounded" src="images/room 1.jpg" alt="">
+            </div><!-- img -->
+          </div><!-- child -->
+
+        </div><!-- parent -->
+      </div><!--   container -->
+
+    </section><!-- news -->
+
+    <section>
+      <div class="container py-5">
+        <h2 class=" text-center py-3" style="color: #f5b53f;">Join US</h2>
+        <div class="join-parent d-flex justify-content-around text-center flex-wrap gap-5">
+          <div class="join-child p-4 rounded">
+            <h2>Subscribe Now</h2>
+            <div class="join-img">
+              <img src="images/face.png" alt="" style="width: 100%;">
+            </div><!-- img -->
+            <h3>Go To Link</h3>
+          </div><!-- child -->
+          <div class="join-child p-4 rounded">
+            <h2>Follow</h2>
+            <div class="join-img pt-4">
+              <img src="images/insta.png" alt="" style="width: 70%;">
+            </div><!-- img -->
+            <h3>Go To Link</h3>
+          </div><!-- child -->
+          <div class="join-child p-4 rounded">
+            <h2>Like The Page</h2>
+            <div class="join-img">
+              <img src="images/linked.png" alt="" style="width: 100%;">
+            </div><!-- img -->
+            <h3>Go To Link</h3>
+          </div><!-- child -->
+          <div class="join-child p-4 rounded">
+            <h2>Watch Videos</h2>
+            <div class="join-img">
+              <img src="images/whats.png" alt="" style="width: 100%;">
+            </div><!-- img -->
+            <h3>Go To Link</h3>
+          </div><!-- child -->
+        </div><!-- parent -->
+      </div><!-- container -->
+    </section><!-- join us -->
+
+    <footer>
+      <div class="container-fluid">
+        <div class="footer-parent row">
+          <div class="footer-child  text-center  col-lg-3 col-12 mx-auto">
+            <hr>
+            <div class="footer-title d-flex">
+              <div>
+              <img src="images/logo.png" style="width: 100px;">
+            </div><!-- img -->
+            <h2 class="align-self-center">Good Company</h2>
+            </div><!-- title -->
+            <hr>
+            <p>Tel : 0000-0000-0000</p>
+            <p>Adress : Egypt</p>
+            <p>Fax : 0000-0000-0000</p>
+          </div><!-- child -->
+          <div class="footer-child  text-center  col-lg-3 col-12 mx-auto">
+            <hr>
+            <div class="footer-title d-flex">
+              <div>
+              <img src="images/logo.png" style="width: 100px;">
+            </div><!-- img -->
+            <h2 class="align-self-center">Important links</h2>
+            </div><!-- title -->
+            <hr>
+            <p>Visit US</p>
+            <p>Take a Look</p>
+            <p>Your Health is more Important</p>
+          </div><!-- child -->
+          <div class="footer-child  text-center  col-lg-3 col-12 mx-auto">
+            <hr>
+            <div class="footer-title d-flex">
+              <div>
+              <img src="images/logo.png" style="width: 100px;">
+            </div><!-- img -->
+            <h2 class="align-self-center">Services for all</h2>
+            </div><!-- title -->
+            <hr>
+            <p>Services for all </p>
+            <p>Provide best Services</p>
+            <p>you will be better than before</p>
+          </div><!-- child -->
+          
+        </div><!-- parent -->
+
+        
+          <div>
+          <hr>
+          <h2 class="text-center py-4">COPYRIGHT &copy; 2025 NADER HUSSEIN , NOCTYPE.ALL RIGHTS</h2>
+            <hr>
+        </div><!-- cpy -->
+      </div><!-- container -->
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>   
+    <script src="script/script.js"></script>
+</body>
+</html>
