@@ -1,5 +1,10 @@
 var openBtn = document.getElementById("open-btn");
 
+function copyText (){
+    alert("لقد تم نسخ النص")
+}
+
+
 openBtn.onclick = () => {
     const loginContainer = document.createElement("div");
     loginContainer.classList.add(
